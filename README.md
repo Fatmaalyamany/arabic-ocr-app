@@ -25,14 +25,13 @@ The application leverages **Streamlit** for the user interface, **EasyOCR** and 
 
 ### Image Output Sample
 
-<img src="outputs/easyocr_overlay_2.jpg" width="300"/>
+<img src="outputs/easyocr_overlay_2.jpg" width="700"/>
 
 ---
 
 ### Text Output Sample
 
 **EasyOCR Output:**
-
 مرحبًا بكم في الوقع الرسمي لحجز تذاكر التحف
 حاليًا زيارات محدودة العدد لاختبار
 يرجى العلم أن التحف
@@ -48,13 +47,13 @@ The application leverages **Streamlit** for the user interface, **EasyOCR** and 
 نتطلع لاستقبالكم قريبا في التحف
 ساعات العمل
 يوميا عدا أيام السبت والأربعاء
-مجمع للتحف  830 صباحا إلى 7 مساءً
-فاعات العرض  9 صباحاً إلى 6 مساءً
-موعد لشراء التذاكر  5 مساء
+مجمع للتحف  830 صباحا إلى 7 مساءً
+فاعات العرض  9 صباحاً إلى 6 مساءً
+موعد لشراء التذاكر  5 مساء
 السبت والأربعاء
-مجمع التحف  830 صباحا إلى 10
-قاعات العرض  9 صباحاً إلى 9 مساءً
-آخر موعد لشراء التذاكر  8 مساء
+مجمع التحف  830 صباحا إلى 10
+قاعات العرض  9 صباحاً إلى 9 مساءً
+آخر موعد لشراء التذاكر  8 مساء
 الكبير
 امصري
 يقدم
@@ -74,8 +73,9 @@ The application leverages **Streamlit** for the user interface, **EasyOCR** and 
 آخر
 مساغً
 
-**Tesseract Output:**
+---
 
+**Tesseract Output:**
 مرحبًا بكم في الموقع الرسمي لحجز تذاكر التحف الصري الكبير
 يرجى العلم أن للتحف يقدم حاليًّا زيارات محدودة العدد لاختبار
 جاهزية الوقع وتجربة الزائر قبل الافتتاح الرسمي
@@ -101,20 +101,32 @@ The application leverages **Streamlit** for the user interface, **EasyOCR** and 
 ٠ قاعات العرض 9 صباحاً إلى 9 مساءً
 ٠ آخر موعد لشراء التذاكر 8 مساءً
 
+---
+
 ### Image Output Sample
 
-This image shows the input image with bounding boxes and detected text overlaid by EasyOCR.
-
-(Insert image of an annotated Arabic text image here)
+<img src="outputs/easyocr_overlay_4.jpg" width="700"/>
 
 ---
 
 ### Text Output Sample
 
-Below is an example of the text extracted by both EasyOCR and Tesseract from an Arabic image.
-
 **EasyOCR Output:**
+الستقبلا
+القا ثذباذ  تدهل الفبر
+مبارء بعطى فىبوم قربفى إثارة انطلان مثروع الذرن اننبة بجنوب
+آربربئرب بمعمةفإباباء إبغندنى واشعبرينانابخا باءالباإرفذاءااىاجابافىنوئى
+برء أناأد إمازابا ء زرداب أزبذررالغاردوإمطن ثبادبااه
+لهر
 
+---
+
+**Tesseract Output:**
+دلا هديدة تحمل الخير اشير المستخيل
+مبارك بعظى فى يوم تاريشى إشارة انطلاق مشروع القرن لتحمية حنواب متصر
+الرئيس يدان بداية ملحمة قوميةلبناء ويضغط عل زر المتفجيرإيذ انب وز ميا اليل إلى فنا الوادي الجديد ف توشكي
+
+مار أن أسةإنسام اليوم وك ما أري أن يقر الام يعدي إنى نعلت جا لبا كر
 
 ---
 
